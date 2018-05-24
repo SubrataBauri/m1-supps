@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Intelligrape
+ * @package    Intelligrape_Productlable
+ * @author     ModuleCreator
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Intelligrape_Productlable>
+            <version>0.1.0</version>
+        </Intelligrape_Productlable>
+    </modules>
+    <frontend>
+        <routers>
+            <productlable>
+                <use>standard</use>
+                <args>
+                    <module>Intelligrape_Productlable</module>
+                    <frontName>productlable</frontName>
+                </args>
+            </productlable>
+        </routers>
+        <layout>
+            <updates>
+                <productlable>
+                    <file>productlable.xml</file>
+                </productlable>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+    </admin>
+    <adminhtml>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<Intelligrape_Productlable>
+							<title>Productlable Module</title>
+							<sort_order>10</sort_order>
+						</Intelligrape_Productlable>
+						<system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <productlable>
+                                            <title>Intelligrape</title>
+                                        </productlable>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+    </adminhtml>   
+    <global>
+        <blocks>
+            <productlable>
+                <class>Intelligrape_Productlable_Block</class>
+            </productlable>
+        </blocks>
+        <helpers>
+            <productlable>
+                <class>Intelligrape_Productlable_Helper</class>
+            </productlable>
+        </helpers>
+    </global>
+</config>

@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<aries_flower>
+    <blocks>
+        <block>
+            <title>Banner Static 6</title>
+            <identifier>banner_static_6</identifier>
+            <content>
+                    <![CDATA[<div class="banner-static6 row-fluid">
+<div class="banner-box banner-box1 span5">{{block type="featuredproductslider/featuredproductslider" name="featuredproductslider" template="magentothem/featuredproductslider/featuredproductslider.phtml"}}</div>
+<div class="banner-box banner-box2 span2">
+<div class="images-banner"><a href="{{store direct_url="women.html"}}"><img src="{{media url="wysiwyg/banner-static10.jpg"}}" alt="" /></a></div>
+</div>
+<div class="banner-box banner-box3 span5">{{block type="onsaleslider/onsaleslider" name="ma.onsaleslider" template="magentothem/onsaleslider/onsaleslider.phtml"}}</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                      <![CDATA[
+                            <div class="f-col f-col1 span3">
+<div class="about-us">
+<div class="footer-static-title">
+<h3>About Us</h3>
+</div>
+<div class="footer-static-content row-fluid">
+<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc.</p>
+<div class="address">9 Interpro Road Madison, AL 35758, USA</div>
+<div class="phone">012) 234 432 3568</div>
+<div class="mail">Contact@plazathemes.com</div>
+</div>
+</div>
+</div>
+<div class="f-col f-col2 span3">
+<div class="footer-static-title">
+<h3>my account</h3>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+<li><a href="#">Your Account</a></li>
+<li><a href="{{store direct_url="customer/address/"}}">address book</a></li>
+<li class="last"><a href="#">Product Reviews</a></li>
+</ul>
+</div>
+</div>
+<div class="f-col f-col3 span3">
+<div class="footer-static-title">
+<h3>Customer Service</h3>
+</div>
+<div class="footer-static-content row-fluid">
+<ul>
+<li class="first"><a href="{{store direct_url="wishlist/"}}">My Wishlist</a></li>
+<li><a href="{{store direct_url="sales/order/history/"}}">My Order</a></li>
+<li><a href="{{store direct_url="sales/guest/form/"}}">Orders and Returns</a></li>
+<li><a href="#">Contacts</a></li>
+<li class="last"><a href="{{store direct_url="catalog/seo_sitemap/category/"}}">Site Map</a></li>
+</ul>
+</div>
+</div>
+<div class="f-col f-col4 span3">
+<div class="footer-static-title">
+<h3>Get Inspired</h3>
+</div>
+<div class="footer-static-content row-fluid">
+<ul>
+<li class="first"><a href="#">Shoes</a></li>
+<li><a href="#">Perfumes</a></li>
+<li><a href="#">Bags</a></li>
+<li><a href="#">Make Up</a></li>
+<li class="last"><a href="#">Jewelry</a></li>
+</ul>
+</div>
+</div>
+                        ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Banner right 4</title>
+            <identifier>banner_right_4</identifier>
+            <content>
+                      <![CDATA[<div class="block block-banner-right"><a href="{{store direct_url="accessories.html"}}"><img src="{{media url="wysiwyg/banner_right4.jpg"}}" alt="" /></a></div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Static Sub Menu Col Right</title>
+            <identifier>pt_menu_idcat_6_right</identifier>
+            <content>
+                      <![CDATA[<div class="sub-menu-col4"><a href="#"><img src="{{media url="wysiwyg/custom_menu1.jpg"}}" alt="" /></a></div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+        <block>
+            <title>Static Sub Menu Bottom</title>
+            <identifier>pt_menu_idcat_4</identifier>
+            <content>
+                      <![CDATA[<div class="custom-menu-bottom">
+<div class="row-fluid">
+<div class="span6"><a href="#"><img src="{{media url="wysiwyg/custom_menu_bottom1.jpg"}}" alt="" /></a></div>
+<div class="span6"><a href="#"><img src="{{media url="wysiwyg/custom_menu_bottom2.jpg"}}" alt="" /></a></div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+
+
+
+        <block>
+            <title>Custom Menu</title>
+            <identifier>pt_item_menu_custom_menu</identifier>
+            <content>
+                   <![CDATA[
+                   <div class="static_block_custom_menu">
+<div class="row-fluid">
+<div class="span4">
+<div class="static-menu-img"><a href="#"><img src="{{media url="wysiwyg/custom_menu2.jpg"}}" alt="" /></a></div>
+<p>boy photography</p>
+</div>
+<div class="span4">
+<div class="static-menu-img"><a href="#"><img src="{{media url="wysiwyg/custom_menu3.jpg"}}" alt="" /></a></div>
+<p>boy photography</p>
+</div>
+<div class="span4">
+<div class="static-menu-img"><a href="#"><img src="{{media url="wysiwyg/custom_menu4.jpg"}}" alt="" /></a></div>
+<p>boy photography</p>
+</div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>block header</title>
+            <identifier>block_header</identifier>
+            <content>
+                      <![CDATA[<div class="phone">
+<div class="title">Order Delivery:</div>
+<div class="content">0123456789</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Banner Static 2</title>
+            <identifier>banner_static_2</identifier>
+            <content>
+                 <![CDATA[
+                    <div class="banner-static2">
+<div class="container">
+<div class="row-fluid">
+<div class="banner-box banner-box1 span4">
+<div class="title">newsletter</div>
+<div class="content">{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>
+</div>
+<div class="banner-box banner-box2 span4">
+<div class="title">follow us on</div>
+<div class="content">
+<ul>
+<li><a class="twitter" href="#">twitter</a></li>
+<li><a class="facebook" href="#">facebook</a></li>
+<li><a class="google" href="#">google</a></li>
+<li><a class="p" href="#">p</a></li>
+<li><a class="youtube" href="#">youtube</a></li>
+<li><a class="point" href="#">2-point</a></li>
+</ul>
+</div>
+</div>
+<div class="banner-box banner-box3 span4">
+<div class="title">payment method</div>
+<div class="content">
+<ul>
+<li><a href="#"><img src="{{media url="wysiwyg/visa.jpg"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/paypal.jpg"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/master_card.jpg"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/discover.jpg"}}" alt="" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Static 7</title>
+            <identifier>banner_static_7</identifier>
+            <content>
+                      <![CDATA[<div class="banner-static7 row-fluid">
+<div class="banner-box banner-box1 span6">
+<div class="images-banner"><a href="{{store direct_url="men.html"}}"><img src="{{media url="wysiwyg/banner-static11.jpg"}}" alt="" /></a></div>
+</div>
+<div class="banner-box banner-box2 span6">
+<div class="images-banner"><a href="{{store direct_url="footwear.html"}}"><img src="{{media url="wysiwyg/banner-static12.jpg"}}" alt="" /></a></div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+    </blocks>
+
+</aries_flower>
+

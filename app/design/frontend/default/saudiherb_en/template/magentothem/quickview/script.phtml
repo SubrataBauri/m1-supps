@@ -1,0 +1,27 @@
+<?php
+
+    $helper     = $this->helper('quickview');
+    
+?>
+<?php if ($helper->isEnabled()): ?>
+    <?php
+        $settings   = $helper->getSettings();
+        $hider      = '';
+        if($settings['overlay_show']){
+            $hider  = 'background-color: ' . $settings['overlay_color'] . ';' .
+                      'opacity: ' . $settings['overlay_opacity'] . ';' .
+                      'filter:progid:DXImageTransform.Microsoft.Alpha(opacity=' . 100*$settings['overlay_opacity'] . ');' .
+                      '-moz-opacity: ' . $settings['overlay_opacity'] . ';' .
+                      '-khtml-opacity: ' . $settings['overlay_opacity'] . ';';
+        }
+    ?>
+    <script type="text/javascript">
+        var loader     = new prototypeLoader('<?php echo $this->getSkinUrl('magentothem/quickview/images/ajax-loader.gif') ?>');
+        var quickview  = new Quickview(<?php echo $this->helper('quickview')->getJsonSettings() ?>, '<?php echo $helper->getJsCachePrefix() ?>');
+        quickview.init();
+    </script>
+    <input type="hidden" id="base_url" value="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) ?>" />
+
+    <div id="quickview-hider" onclick="quickview.close()" class="quickview-hider" style="display:none;<?php echo $hider ?>"></div>
+    <div id="popup" class="quickview-popup" style="display:none;"></div>
+<?php endif; ?>

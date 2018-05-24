@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Percept_Shiprec>
+      <version>0.1.0</version>
+    </Percept_Shiprec>
+  </modules>
+  <global>
+    <helpers>
+      <shiprec>
+        <class>Percept_Shiprec_Helper</class>
+      </shiprec>
+    </helpers>
+	<models>
+	  <shiprec>
+		<class>Percept_Shiprec_Model</class>
+		<resourceModel>shiprec_mysql4</resourceModel>
+	  </shiprec>
+			<shipping>
+				<rewrite>
+					<shipping>Percept_Shiprec_Model_Shipping_Shipping</shipping>
+				</rewrite>
+			</shipping>
+	</models>
+  </global>
+</config> 

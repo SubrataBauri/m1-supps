@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<aries_flower>
+    <resources>
+        <resource>
+            <title>Aries_Flower Homepage</title>
+            <identifier>aries_flower_home</identifier>
+            <root_template>one_column</root_template>
+            <content><![CDATA[{{block type="newproductslider/newproductslider" name="newproductslider" template="magentothem/newproductslider/newproductslider.phtml"}}]]></content>
+            <sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+
+    </resources>
+</aries_flower>

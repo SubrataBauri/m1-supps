@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+	<default>
+<referenceBlock name="top.links">
+<block class="Magento\Framework\View\Element\Html\Link\Current" name="about-us">
+<arguments>
+<argument name="label" xsi:type="string">About Us</argument>
+<argument name="path" xsi:type="string">about-us</argument>
+</arguments>
+</block>
+</referenceBlock>
+</default>
+ 
+ 
+	</layout>
