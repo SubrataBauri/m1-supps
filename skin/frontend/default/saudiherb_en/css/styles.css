@@ -2691,7 +2691,7 @@ width: 24px;
 
 /*=====================================================================================================================*/
 /*Banner7*/
-.ma-banner7-container{ border: 10px solid #fff;}
+.ma-banner7-container{ /*border: 10px solid #fff;*/}
 .ma-banner7-container .flex-direction-nav a,
 .nivo-directionNav a { width: 36px; height: 36px; margin: -15px 0 0; display: block; background: url(../images/bg_banner7.png) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; z-index: 9;}
 .ma-banner7-container .flex-direction-nav .flex-next,
