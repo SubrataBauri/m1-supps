@@ -40,10 +40,17 @@ ul{margin:0; padding:0; list-style-type:none;}
 .std ul.t_desc , .std ul.s_desc{list-style: outside none none;padding-left: 0;}
 .t_desc > li {background: rgba(0, 0, 0, 0) url("../images/righticon.png") no-repeat scroll 0 0;line-height: 1.5;padding-left: 32px;}
 .footer address{margin: 15px 0 0;}
-.ma-header-container .toplink .links li.top_link.contactus, .ma-header-container .toplink .links li.top_link.اتصلبنا {background: rgba(0, 0, 0, 0) url("../images/social-icon/cont.png") no-repeat scroll left 9px / 26px auto;cursor: pointer;font-size: 16px;font-weight: bold;line-height: 38px;padding: 0 32px;}
+.ma-header-container .toplink .links li.top_link.contactus, .ma-header-container .toplink .links li.top_link.اتصلبنا {
+	background: rgba(0, 0, 0, 0) url("../images/social-icon/cont.png") no-repeat scroll left 9px / 26px auto;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 38px;
+	padding: 0 32px;
+}
 .ma-header-container .toplink .span7 ul.links {min-height: 60px;padding: 0;}
-.ma-header-container .toplink .links li.top_link.sign-up, .ma-header-container .toplink .links li.top_link.سجل {background: rgba(0, 0, 0, 0) url("../images/social-icon/up.png") no-repeat scroll left 9px / 26px auto;cursor: pointer;font-size: 16px;font-weight: bold;line-height: 38px;padding: 0 32px;}
-.ma-header-container .toplink .links li.top_link.login, .ma-header-container .toplink .links li.top_link.logout, .ma-header-container .toplink .links li.top_link.تسجيلالدخول {background: rgba(0, 0, 0, 0) url("../images/social-icon/log.png") no-repeat scroll left 9px / 26px auto;cursor: pointer;font-size: 16px;font-weight: bold;line-height: 38px;padding: 0 32px;}
+.ma-header-container .toplink .links li.top_link.sign-up, .ma-header-container .toplink .links li.top_link.سجل {background: rgba(0, 0, 0, 0) url("../images/social-icon/up.png") no-repeat scroll left 9px / 26px auto;cursor: pointer;font-size: 12px;font-weight: bold;line-height: 38px;padding: 0 32px;}
+.ma-header-container .toplink .links li.top_link.login, .ma-header-container .toplink .links li.top_link.logout, .ma-header-container .toplink .links li.top_link.تسجيلالدخول {background: rgba(0, 0, 0, 0) url("../images/social-icon/log.png") no-repeat scroll left 9px / 26px auto;cursor: pointer;font-size: 12px;font-weight: bold;line-height: 38px;padding: 0 32px;}
 .links li.top_link > a.top-link-cart::after {background: rgba(0, 0, 0, 0) url("../images/social-icon/cart-icon.png") no-repeat scroll left 6px / 36px auto;content: "";cursor: pointer;height: 35px;left: 60%;padding: 0 20px;position: absolute;top: 4px;}
 .links li.top_link > a.top-link-cart{background: #c88433  none repeat scroll 0 0;border-radius: 100%;   color: #ffffff;font-size: 10px;font-weight: bold;height: 18px;left: -28px;line-height: 11px;margin-top: 0;position: relative;top: -6px;width: 18px;z-index: 99;}
 .header-content .quick-access.span3 {margin: 35px 0 0 30px;}
@@ -55,7 +62,10 @@ ul{margin:0; padding:0; list-style-type:none;}
 .nav-container .parentMenu > a span {color: #ffffff;font-family: arial;font-size: 17px;font-weight: bold;}
 .nav-container .pt_custommenu {height: 55px;padding: 12px 0;}
 .pt_custommenu div.pt_menu .parentMenu a, .pt_custommenu div.pt_menu .parentMenu span.block-title {padding: 0 11px;}
-.toplink .form-language {margin: 8px 0 0;}
+.toplink .form-language {
+	margin: 8px 0 0;
+	font-size: 12px;
+}
 #pt_menu_home .parentMenu a{padding: 0 25px;}
 .ma-featuredproductslider-container, .ma-onsaleproductslider-container{min-height: 415px;}
 .ma-page .footer-static .span6.f_social {display: block;float: none;margin: 0 auto;width: 190px;}
