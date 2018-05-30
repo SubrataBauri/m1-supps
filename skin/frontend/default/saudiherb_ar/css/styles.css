@@ -2226,7 +2226,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav li.last{ background:none;  }
 #nav li.home { padding-left: 0; }
 
-#nav a { float:left; padding: 10px 16px; color:#fff; font-size:23px; text-transform:capitalize; }
+#nav a { float:left; padding: 10px 16px; color:#fff; font-size:21px; text-transform:capitalize; }
 #nav a span{ }
 
 #nav li.active a,

@@ -2228,7 +2228,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav li.last{ background:none;  }
 #nav li.home { padding-left: 0; }
 
-#nav a { float:left; padding: 10px 16px; color:#fff; font-size:20px; text-transform:capitalize; }
+#nav a { float:left; padding: 10px 16px; color:#fff; font-size:18px; text-transform:capitalize; }
 #nav a span{ }
 
 #nav li.active a,
@@ -2259,7 +2259,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav ul ul,
 #nav ul div {  }
 
-#nav ul li a { padding: 0 0 0 20px; text-transform:capitalize !important; color:#fff !important; font-size: 20px; }
+#nav ul li a { padding: 0 0 0 20px; text-transform:capitalize !important; color:#fff !important; font-size: 16px; }
 #nav ul li a span{ padding: 7px 12px; }
 #nav ul li a:hover { color: #F2f2f2 !important; }
 #nav ul span,
