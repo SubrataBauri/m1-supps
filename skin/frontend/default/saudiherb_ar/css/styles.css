@@ -2199,8 +2199,16 @@ tr.summary-details-excluded { font-style:italic; }
 /*-------- Menu --------*/
 
 /********** < Navigation */
-.ma-nav-container { }
-#nav { margin:0 auto; font-size:12px; background: #8cc63f; }
+.ma-nav-container {
+	background: #8cc63f;
+}
+
+#nav { 
+	margin:0 auto; 
+	font-size:12px; 
+	background: #8cc63f;
+	width: fit-content;
+}
 
 /* All Levels */ /* Style consistent throughout all nav levels */
 #nav li { position:relative; text-align:right; }
@@ -2208,7 +2216,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav li.over { z-index:998; }
 #nav a,
 #nav a:hover { display:block; line-height:1.3em; text-decoration:none; }
-#nav span { display:block; cursor:pointer; white-space:nowrap;font-family: viprawybold; }
+#nav span { display:block; cursor:pointer; white-space:nowrap;/*font-family: viprawybold;*/ }
 #nav li ul span {white-space:normal; }
 #nav ul li.parent a {}
 #nav ul li.parent li a { }
