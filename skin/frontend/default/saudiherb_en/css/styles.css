@@ -651,13 +651,14 @@ tr.summary-details-excluded { font-style:italic; }
 }
 .header .search-content {
     /*background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #e8e8e8;
-    */display: none;
+    border: 1px solid #e8e8e8;*/
+    display: block;
     /*padding: 5px;
     */position: absolute;
     right: 0;
     text-align: left;
-    top: 66px;
+    /*top: 66px;*/
+	top: 10px;
     width: 230px;
     border-radius: 0px;
 }
